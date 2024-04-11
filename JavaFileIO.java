@@ -66,7 +66,7 @@ class Course{
 }
 
 class CourseServiceImp implements CourseService {
-    private static final int MIN_ID = 10;
+    private static final int MIN_ID = 0;
     private static final int MAX_ID = 99;
     @Override
     public void addNewCourse(String courseTitle) {
