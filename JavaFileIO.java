@@ -208,7 +208,7 @@ class ViewModel{
             System.out.println("[1]. Add New Course");
             System.out.println("[2]. List All Courses");
             System.out.println("[3]. Get Search Course by ID");
-            System.out.println("[4]. Exit");
+            System.out.println("[0]. Exit");
             System.out.println("--------------------------");
             System.out.print("[+]Enter your choice: ");
             int choice = scanner.nextInt();
@@ -236,7 +236,7 @@ class ViewModel{
                     }
                     break;
                 }
-                case 4->{
+                case 0->{
                     System.out.println("Exiting...");
                     scanner.close();
                     System.exit(0);
